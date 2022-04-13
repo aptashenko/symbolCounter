@@ -1,0 +1,45 @@
+.container {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    &__num {
+        margin: 30px auto;
+        padding: 20px;
+        width: 1000px;
+        height: 500px;
+        resize: none;
+        border-radius: 20px;
+
+        &:focus, &:hover {
+            border-color: skyblue;
+            box-shadow: 5px 5px 15px;
+            outline: 1px;
+        }
+    }
+
+    &__title {
+        margin: 0 auto;
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 26px;
+    }
+    
+    &__sentence {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    
+}
+
+#result {
+    font-weight: 900;
+    font-size: 26px;
+    cursor: pointer;
+    &:hover {
+        color: skyblue;
+    }
+}
